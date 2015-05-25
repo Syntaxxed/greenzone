@@ -1,0 +1,239 @@
+/* map : https://www.mapbox.com/editor/#search ; */
+
+body {
+	font-family: "Espacio";
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 1em;
+}
+
+@font-face {
+    font-family: Espacio;
+    src: url(Espacio.ttf);
+}
+@font-face {
+    font-family: basic title font;
+    src: url(basic title font.ttf);
+}
+@font-face {
+    font-family: KG Summer Sunshine Shadow;
+    src: url(KG Summer Sunshine Shadow.ttf);
+}
+
+nav {
+	width: 100%;
+	height: 3em;
+	position: fixed;
+	padding-top: 1em;
+	background-color: white;
+
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 2em;
+	padding: 0em 1em 0em 1em;
+	color: #A54643;
+	font-family: 'basic title font';
+}
+
+img {
+	padding: 0.7em;
+}
+
+p {
+	margin-bottom: 2em;
+}
+
+.top, .twee, .drie, .vier, .vijf, .zes, .contact{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	clear:both;
+	overflow: visible;
+}
+
+.top {
+	height: 110%;
+}
+
+.twee, .drie, .vier, .vijf, .zes, .contact{
+	padding: 5em 0em 5em 0em;
+	text-align: center;
+}
+
+.contact {
+	height: 110%;
+}
+.top {
+	background-color: #93B439;
+	text-align: center;
+}
+
+.top img {
+	margin-top: 6em;
+}
+
+.twee {
+	background-color: #B69439;
+	background-image: url("blaadjes.png");
+}
+
+.drie, .contact {
+	background-color: #A54643;
+}
+
+
+/*.drie img {
+	width: 30%;
+	margin-top: 8em;
+}*/
+
+.tekst1, .tekstrestauranten, .tekstparken, .winkelsteksten, .dierenteksten, .contacttext {
+	width: 80%;
+	height: auto;
+	padding: 1em;
+	color: white;
+	font-size: 2em;
+	margin: 0 auto;
+	/*border: 2px solid black;*/
+	clear: both;
+	overflow:visible;
+	text-align: justify;
+}
+
+
+
+.tekstrestauranten {
+
+	background-color: #A54643;
+}
+
+.tekstrestauranten img, .winkelsteksten img{
+	float: right;
+	width: 30%;
+	padding: 0.9em;
+}
+
+.restofoto1, .restofoto2, .restofoto3, .restofoto4, .parkfoto1, .parkfoto2, .parkfoto3, .parkfoto4, .winkelfoto1, .winkelfoto2, .winkelfoto3, .winkelfoto4, .dierfoto1, .dierfoto2, .dierfoto3, .dierfoto4 {
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0.8em;
+	text-align: center;
+	margin-top: 0.8em;
+}
+
+.restofoto1 {
+	background-image: url("etenvollevengrijs.jpg");
+}
+.restofoto2 {
+	background-image: url("greenwaygrijs.jpg");
+}
+.restofoto3 {
+	background-image: url("lunchboxgrijs.jpg");
+}
+
+.restofoto4 {
+	background-image: url("lunchboxgrijs.jpg");
+}
+
+.parkfoto1 {
+	background-image: url("begijnhofgrijs.jpg");
+}
+
+.parkfoto2 {
+	background-image: url("parkspoornoordgrijs.jpg");
+}
+
+.parkfoto3 {
+	background-image: url("plantentuingrijs.jpg");
+}
+
+.parkfoto4 {
+	background-image: url("stadsparkgrijs.jpg");
+}
+
+.winkelfoto1 {
+	background-image: url("robuustgrey.jpg");
+}
+
+.winkelfoto2 {
+	background-image: url("oxfamgrey.jpg");
+}
+
+.winkelfoto3 {
+	background-image: url("oilgrey.jpg");
+}
+
+.winkelfoto4 {
+	background-image: url("natuurhuisgrey.jpg");
+}
+
+.dierfoto1 {
+	background-image: url("tijgergrijs.jpg");
+}
+
+.dierfoto2 {
+	background-image: url("dierenasielgrijs.jpg");
+}
+
+.dierfoto3 {
+	background-image: url("dierenwinkelgrijs.jpg");
+}
+
+.dierfoto4 {
+	background-image: url("aquatopiagrijs.jpg");
+}
+
+.tekstrestauranten a, .dierenteksten a, .winkelsteksten a, .tekstparken a{
+ 	line-height: 200px;
+ 	/*margin-top: 200px;*/	
+ 	text-decoration: none;
+	font-size: 0.8em;
+	font-family: 'KleinSlabSerif';
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+.tekstrestauranten a:hover, .dierenteksten a:hover, .winkelsteksten a:hover, .tekstparken a:hover {
+	opacity:0.7;
+	width: 10em;
+	height: 10em;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: 0.5em 0em 0.8em 0em;
+	font-weight: bold;
+	color: white;
+	font-family: "KG Summer Sunshine Shadow";
+	text-align: center;
+}
+
+.vier {
+	background-color: #93B439;
+	background-image: url("blaadjes.png");
+}
+
+
+.tekstparken img, .dierenteksten img {
+	width: 30%;
+	float: left;
+	margin: 0.9em;
+}
+
+.vijf {
+	background-color: #CD802E;
+}
+
+.zes {
+	background-color: #B69439;
+	background-image: url("blaadjes.png");
+}
+
+.fotos {
+	width: 100%;
+	margin-top: 5em;
+}
