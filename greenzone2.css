@@ -63,7 +63,8 @@ p {
 }
 
 .contact {
-	height: 110%;
+	height: 140%;
+	text-align: center;
 }
 .top {
 	background-color: #93B439;
@@ -100,6 +101,10 @@ p {
 	clear: both;
 	overflow:visible;
 	text-align: justify;
+}
+
+.contacttext {
+	text-align: center;
 }
 
 
@@ -237,3 +242,22 @@ h1 {
 	width: 100%;
 	margin-top: 5em;
 }
+
+/*map*/
+
+ #GreenzoneMap {
+        height:400px;
+        width:760px;
+        margin: 0 auto;
+    }
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }

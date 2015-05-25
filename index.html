@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="greenzone2.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+		<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAl10KPm8lRvfc8rHRjsvFqtxyJCJQUwYQ&sensor=false&extension=.js'></script> 
 		<meta charset="utf-8">
 	</head>
 	<title> Greenzone </title>
@@ -57,10 +58,10 @@
 
 			<div class="fotos">
 
-				<a href="#"><div class="restofoto1">Eten vol leven</div></a>
-				<a href="#"><div class="restofoto2">Greenway</div></a>
-				<a href="#"><div class="restofoto3">The lunchbox</div></a>
-				<a href="#"><div class="restofoto4">Rosenobel</div></a>
+				<a href="http://www.etenvolleven.be/" target="_blank"><div class="restofoto1">Eten vol leven</div></a>
+				<a href="http://www.greenway.be/" target="_blank"><div class="restofoto2">Greenway</div></a>
+				<a href="http://www.lunchbox.be/" target="_blank"><div class="restofoto3">The lunchbox</div></a>
+				<a href="http://www.rosenobel.be/" target="_blank"><div class="restofoto4">Rosenobel</div></a>
 
 			</div>
 		</div>
@@ -79,10 +80,10 @@
 
 			<div class="fotos">
 
-				<a href="#"><div class="parkfoto1">Begijnhof</div></a>
-				<a href="#"><div class="parkfoto2">Spoor noord</div></a>
-				<a href="#"><div class="parkfoto3">Plantentuin</div></a>
-				<a href="#"><div class="parkfoto4">Stadspark</div></a>
+				<a href="http://www.begijnhofantwerpen.be/index.htm" target="_blank"><div class="parkfoto1">Begijnhof</div></a>
+				<a href="http://www.parkspoornoord.com/" target="_blank"><div class="parkfoto2">Spoor noord</div></a>
+				<a href="#" title="De plantentuin heeft helaas geen beschikbare website"><div class="parkfoto3">Plantentuin</div></a>
+				<a href="#" title="Het stadspark heeft helaas geen beschikbare website"><div class="parkfoto4">Stadspark</div></a>
 
 			</div>
 
@@ -103,10 +104,10 @@
 
 			<div class="fotos">
 
-				<a href="#"><div class="winkelfoto1">Robuust</div></a>
-				<a href="#"><div class="winkelfoto2">Oxfam</div></a>
-				<a href="#"><div class="winkelfoto3">Oil & Vinegar</div></a>
-				<a href="#"><div class="winkelfoto4">Natuurhuis</div></a>
+				<a href="http://www.berobuust.com/" target="_blank"><div class="winkelfoto1">Robuust</div></a>
+				<a href="http://www.oxfam.be/" target="_blank"><div class="winkelfoto2">Oxfam</div></a>
+				<a href="http://www.oilvinegar.com/nl-be/" target="_blank"><div class="winkelfoto3">Oil & Vinegar</div></a>
+				<a href="http://www.hetnatuurhuis.be/" target="_blank"><div class="winkelfoto4">Natuurhuis</div></a>
 
 			</div>
 		</div>
@@ -124,10 +125,10 @@
 
 			<div class="fotos">
 
-				<a href="#"><div class="dierfoto1">De zoo</div></a>
-				<a href="#"><div class="dierfoto2">Dierenasiel</div></a>
-				<a href="#"><div class="dierfoto3">Dierenwinkel</div></a>
-				<a href="#"><div class="dierfoto4">Aquatopia</div></a>
+				<a href="http://www.zooantwerpen.be/" target="_blank"><div class="dierfoto1">De zoo</div></a>
+				<a href="http://dierenspeciaalzaakdepauw.be/" target="_blank"><div class="dierfoto2">De pauw</div></a>
+				<a href="http://www.pets.be/users/dierenbescherming-antwerpen" target="_blank"><div class="dierfoto3">Pets</div></a>
+				<a href="http://www.aquatopia.be/" target="_blank"><div class="dierfoto4">Aquatopia</div></a>
 
 			</div>
 		</div>
@@ -141,12 +142,17 @@
 				email: info@greenzone.be<br>
 				telefoon: 03/485 69 85<br>
 				<br>
-				Bekijk ook zeker onze app die te vinden is op de appstore.
+				Bekijk ook zeker onze app die te vinden is op de appstore als 'Greenzone'.
+				<br><br>
+				Voor u even op een rijtje gezet: alle hotspots in onze gids gemakkelijk terug te vinden op deze onderstaande kaart!
 			</p>
+
+				<div id="GreenzoneMap"></div>
 		</div>
 	</div>
 
-	<script src="jquery-2.1.3.min.js"></script>
 	<script src="greenzone.js"></script>
+	<script src="jquery-2.1.3.min.js"></script>
+
 	</body>
 </html>
