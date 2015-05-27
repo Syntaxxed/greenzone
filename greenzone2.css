@@ -9,15 +9,15 @@ body {
 
 @font-face {
     font-family: Espacio;
-    src: url(Espacio.ttf);
+    src: url(espacio.ttf);
 }
 @font-face {
     font-family: basic title font;
-    src: url(basic title font.ttf);
+    src: url(basictitlefont.ttf);
 }
 @font-face {
     font-family: KG Summer Sunshine Shadow;
-    src: url(KG Summer Sunshine Shadow.ttf);
+    src: url(kgsummersunshineshadow.ttf);
 }
 
 nav {
@@ -260,4 +260,66 @@ h1 {
     }
     .gm-style-iw a {
         color: #4272db;
+    }
+
+
+@media(max-width: 1024px){
+	nav a {
+		font-size: 1.5em;
+	}
+
+	img {
+		width: 40%;
+	}
+
+	.tekstrestauranten img {
+		width: 27%;		
+	}
+
+	.restofoto1, .restofoto2, .restofoto3, .restofoto4, .parkfoto1, .parkfoto2, .parkfoto3, .parkfoto4, .winkelfoto1, .winkelfoto2, .winkelfoto3, .winkelfoto4, .dierfoto1, .dierfoto2, .dierfoto3, .dierfoto4 {
+		width: 5em;
+		height: 3em;
+		padding-top:2em;
+}
+
+.tekstrestauranten a, .dierenteksten a, .winkelsteksten a, .tekstparken a{
+
+		line-height: 15px;
+		font-size: 0.8em;
+
+}
+
+}
+
+
+    @media (max-width:640px){
+    	nav a{
+    		font-size: 1em;
+    		font-weight: bold;
+
+    	}
+
+    	nav {
+    		padding-top: 0.4em;
+    	}
+
+		.top img {
+			margin-top: 15em;
+		}
+
+		#GreenzoneMap{
+
+      	  	height:300px;
+        	width:460px;
+       		margin: 0 auto;
+		}
+
+		.tekstrestauranten img, .winkelsteksten img,.tekstparken img, .dierenteksten img{
+			width: 20%;
+		}
+
+	.restofoto1, .restofoto2, .restofoto3, .restofoto4, .parkfoto1, .parkfoto2, .parkfoto3, .parkfoto4, .winkelfoto1, .winkelfoto2, .winkelfoto3, .winkelfoto4, .dierfoto1, .dierfoto2, .dierfoto3, .dierfoto4 {
+		display: block;
+}
+
     }
