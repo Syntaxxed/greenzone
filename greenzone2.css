@@ -220,6 +220,7 @@ h1 {
 .vier {
 	background-color: #93B439;
 	background-image: url("blaadjes.png");
+	height: 160%;
 }
 
 
@@ -227,6 +228,10 @@ h1 {
 	width: 30%;
 	float: left;
 	margin: 0.9em;
+}
+
+#ad {
+	width: 100%;
 }
 
 .vijf {
@@ -242,6 +247,8 @@ h1 {
 	width: 100%;
 	margin-top: 5em;
 }
+
+
 
 /*map*/
 
